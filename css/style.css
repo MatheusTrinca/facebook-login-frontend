@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------ HEADER ------*/
+
+header{
+    padding: 15px 0 5px 0;
+    background-color: #3b5998;
+}
+
+
+.center{
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding-top: 15px;
+}
+
+.logo h2{
+    color: white;
+    font-size: 45px;
+}
+
+.login-container{
+    float: right;
+}
+
+.login-container .email{
+    float: left;
+    padding-right: 15px;
+}
+
+.login-container .senha{
+    float: left;
+    padding-right: 15px;
+}
+
+.login-container .login-button{
+    float: left;
+    margin-top: 25px;
+}
+
+.login-container p{
+    color: white;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.login-container .senha p:last-of-type{
+    color: rgba(255, 255, 255, 0.432);
+}
+
+.login-container input[type=text]{
+    height: 25px;
+    width: 180px;
+}
+
+.login-button input[type=submit]{
+    width: 50px;
+    height: 27px;
+    border: 0;
+    border: 1px solid rgb(18, 8, 158);
+    background-color: #5a7bc2;
+    color: white;
+    line-height: 27px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.login-button input[type=submit]:hover{
+    background-color: #3b5998;
+}
+
+/* --------- BODY ---------- */
+
+section.main{
+    background: linear-gradient(white, #d3d8e8);
+    padding: 30px;
+}
+
+.img-pessoa{
+    width: 55%;
+    float: left;
+}
+
+.img-pessoa .img-pessoa-texto{
+    max-width: 500px;
+    padding: 10px 0;
+}
+
+.img-pessoa-texto h3{
+    font-size: 22px;
+    line-height: 29px;
+    color: rgb(34, 34, 34);
+}
+
+.img-pessoa img{
+    width: 90%;
+}
+
+.abrir-conta{
+    width: 45%;
+    float: left;
+    padding-left: 2%;
+}
+
+.abrir-conta h1{
+    font-size: 45px;
+}
+
+.abrir-conta h3{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.cria-conta{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+
+.w100{
+    width: 100%;
+    padding: 0 5px;
+}
+
+.cria-conta input[type=text]{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.w100 h5{
+    color: rgb(139, 139, 139);
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.nascimento{
+    width: 80px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.input-radio{
+    width: 33.3%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.input-radio h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.input-radio input[type=radio]{
+    display: inline-block;
+}
+
+.ajuda{
+    background-color: rgb(87, 87, 87);
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    padding-left: 4px;
+    color: #ccc;
+    font-weight: bold;
+    margin: 8px 0 0 12px;
+    line-height: 18px;
+}
+
+.termos p{
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+    padding: 10px 0;
+}
+
+.button input[type=submit]{
+    width: 200px;
+    height: 45px;
+    color: white;
+    background: linear-gradient(green, rgb(63, 170, 63));
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 20px;
+}
+
+.cria-conta > p{
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.cima, .baixo{
+    padding: 10px 0;
+}
+
+.links{
+    float: left;
+}
+
+.links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #2f4e91;
+}
+
+.mais{
+    float: left;
+    width: 35px;
+    height: 25px;
+    background-color: #f3f3f3;
+    border: 1px solid rgb(216, 216, 216);
+    position: relative;
+}
+
+.mais h2{
+    color: rgb(124, 124, 124);
+    font-weight: normal;
+    line-height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+hr{
+    border-top: 1px solid #ccc;
+    height: 1px;
+    margin: 0;
+}
+
+.baixo .links li{
+    margin-right: 12px;
+    padding: 2px 0;
+}
+
+footer p{
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    padding: 20px 0;
+}
